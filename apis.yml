@@ -1,7 +1,27 @@
 aid: nod-games
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nod-games.png
 name: NOD Games
-description: NOD Games is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: NOD Games is a Seoul-based blockchain game studio founded in 2019 by CEO
+  Chanki Lee, building entertaining game content and open, player-owned game platforms
+  where gamers and communities own and trade in-game digital assets as NFTs. Its marquee
+  titles are League of Kingdoms, a free-to-play 4X MMO strategy game with tradable
+  Land NFTs and the LOKA token, and Crypto Sword & Magic, an RPG whose heroes, equipment,
+  and pets are recorded on-chain with game logic running in smart contracts. The company
+  is backed by a16z crypto. As of this enrichment pass NOD Games publishes no first-party
+  developer program, public API, SDK, or GitHub organization; its official domain
+  nodgames.com resolves to an unconfigured Wix parking page and the League of Kingdoms
+  domain no longer resolves, so there is no live API surface to catalog.
 url: https://raw.githubusercontent.com/api-evangelist/nod-games/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +29,38 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-notes: 'Blockchain game studio, no public API surface. Official site nodgames.com
+  returns a Wix "ConnectYourDomain Error" (domain parked, no site connected, HTTP 404);
+  leagueofkingdoms.com does not resolve (NXDOMAIN). Only community-built tooling exists
+  around an undocumented endpoint (api-lok-live.leagueofkingdoms.com). No first-party
+  OpenAPI, SDK, docs portal, or GitHub org found. Identity anchored via LinkedIn and
+  Crunchbase.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Gaming
+- Games
+- Blockchain
+- Web3
+- NFT
+- Cryptocurrency
+- Game Studio
+- South Korea
+common:
+- type: LinkedIn
+  url: https://www.linkedin.com/company/nodgames
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/nod-games
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
