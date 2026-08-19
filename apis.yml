@@ -35,7 +35,7 @@ x-notes: 'Blockchain game studio, no public API surface. Official site nodgames.
   around an undocumented endpoint (api-lok-live.leagueofkingdoms.com). No first-party
   OpenAPI, SDK, docs portal, or GitHub org found. Identity anchored via LinkedIn and
   Crunchbase.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
