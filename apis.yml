@@ -34,6 +34,8 @@ description: NOD Games is a Seoul-based blockchain game studio founded in 2019 b
   nodgames.com resolves to an unconfigured Wix parking page and the League of Kingdoms
   domain no longer resolves, so there is no live API surface to catalog.
 url: https://raw.githubusercontent.com/api-evangelist/nod-games/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
